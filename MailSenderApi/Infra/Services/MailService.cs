@@ -10,7 +10,7 @@ namespace MailSenderApi.Infra.Services
         private string smtpAddress => "smtp.gmail.com";
         private int portNumber => 587;
         private string emailFromAddress => "herbertzin@gmail.com";
-        private string password => "@M.i.t.l@123";
+        private string password => "";
 
         public void AddEmailsToMailMessage(MailMessage mailMessage, string[] emails)
         {
